@@ -36,7 +36,7 @@ def takecommand():
 
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        print("AOSG is listening!!!!!")
+        print("ASG is listening!!!!!")
         r.pause_threshold = 1
         r.energy_threshold = 500
         audio = r.listen(source)
